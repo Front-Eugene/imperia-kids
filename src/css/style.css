@@ -1,0 +1,31 @@
+@font-face {
+	font-family: 'light'; 
+	src: url(../fonts/NeutralFace.otf); 
+}
+
+@font-face {
+	font-family: 'bold'; 
+	src: url(../fonts/NeutralFace-Bold.otf); 
+}
+
+* {
+    font-family: 'light';
+    /* user-select: none; */
+    box-sizing: border-box;
+}
+
+:root {
+    --night-color: #fff;
+    --day-color: #000;
+    --night-bg: #1d1a47;
+    --day-bg: #C2CAD0;
+    --day-text-bg: rgba(29, 26, 71, 0.25);
+    --night-text-border: #c2cad01a;
+
+    /* #F4E64C звезда
+    #E7717D розовый
+    #C2CAD0 серый
+    #7E685A коричневый
+    #AFD275 зелёный
+    #1d1a47 фиолетовый */
+}

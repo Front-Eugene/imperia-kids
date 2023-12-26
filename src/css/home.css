@@ -1,0 +1,251 @@
+body {
+    width: 320px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+main {
+    width: 100%;
+    margin: 50px auto 0 auto;
+    padding: 10px;
+    transition: all 1s ease-out;
+    background: url(../img/bg/bg-day.jpg);
+    background-attachment: fixed;
+}
+
+.night main {
+    transition: all 1s ease-out;
+    background: url(../img/bg/bg-night.jpg);
+    background-attachment: fixed;
+}
+
+.line {
+    stroke: #fff;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    padding: 5px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--day-bg);
+    z-index: 999;
+}
+
+header span {
+    width: 80px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.night header {
+    background: var(--night-bg);
+}
+
+.dark-btn {
+    width: 35px;
+    position: relative;
+    overflow: hidden;
+    transition: all 1s ease-out;
+}
+
+/* .btn-shadow {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+    background: #00000071;
+} */
+
+.day-night-img {
+    width: 100%;
+}
+
+.logo {
+    margin: 0 0 0 5px;
+    font-family: bold;
+    letter-spacing: 3px;
+    font-size: 25px;
+    text-shadow: 4px -1px #000;
+    color: #fff;
+}
+
+.screen {
+    position: relative;
+    width: 100%;
+    height: calc(85dvh - 70px);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.screen-bg {
+    height: 100%;
+}
+
+.shadow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(325deg, #7e685a69 80%, transparent);
+
+}
+
+.screen-title {
+    width: 100%;
+    line-height: 35px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'light';
+    text-shadow: -1px 0 black;
+    margin: 85px auto;
+    padding: 10px;
+    background: #ffffff87;
+    background: url(../img/bg/paper.jpg);
+}
+
+strong {
+    padding: 1px 5px;
+    background: #F4E64C;
+}
+
+.text {
+    margin: 10px 0 0 0;
+    padding: 10px;
+    letter-spacing: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 10px;
+    font-size: 13px;
+    font-weight: 100;
+    background: linear-gradient(325deg, transparent, 10%, var(--day-text-bg), 80%, transparent);
+}
+
+.night .text {
+    color: var(--night-color);
+    border: 1px solid var(--night-text-border);
+    background: linear-gradient(325deg, transparent, 10%, var(--night-bg), 80%, transparent);
+}
+
+.social {
+    margin: 10px 0 0 0;
+    display: flex; 
+    justify-content: space-between;
+    text-align: center;
+}
+
+.social p {
+    margin: 0;
+}
+
+.inst {
+    width: 50px;
+    animation: rotate 4s linear infinite;
+    transform-origin: center center;
+}
+
+@keyframes rotate {
+    0% {
+      transform: rotateY(0deg);
+    }
+
+    80% {
+        transform: rotateY(0deg);
+      }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+/* SLIDER */
+
+.slider {
+    width: 100%;
+    position: relative;
+    margin: 10px auto;
+}
+
+.slider__wrap {
+    min-width: 100%;
+    height: 100%;
+    display: flex;
+    overflow: hidden;
+}
+
+.slider__track {
+    width: 100%;
+    height: 200px;
+    display: flex;
+    position: relative;
+    transition: 1s;
+}
+
+.slider__item {
+    min-width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider__item img {
+    display: block; 
+    width: 70%; 
+    margin: 0 auto;
+    filter: drop-shadow(0px 0px 10px #F4E64C);
+    -webkit-filter: drop-shadow(0px 0px 5px #F4E64C);
+}
+
+.btn__scroll {
+    box-sizing: border-box;
+    height: 200px;
+    position: absolute;
+    padding: 0;
+    margin: -200px 0 0 0;
+    border: none;
+    background: #00000000;
+}
+
+.btn__prev {
+    left: 0;
+}
+
+.btn__next {
+    right: 0;
+}
+
+/* SLIDER */
+
+
+footer {
+    height: 100px;
+    background: #000;
+}
+
+.triangle {
+    width: 50px;
+    height: 20px;
+    clip-path: polygon(100% 0, 0 50%, 100% 100%);
+    background: #000;
+}
