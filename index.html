@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="src/css/style.css">
     <link rel="stylesheet" href="src/css/menu-btn.css">
     <link rel="stylesheet" href="src/css/home.css">
+    <link rel="stylesheet" href="src/css/media.css">
     <title>imperia kids</title>
 </head>
 
@@ -16,14 +17,46 @@
         <a href="index.html">
             <p class="logo">Imperia Kids</p>
         </a>
-        <span>
+
+        <nav class="navigation">
+            <ul>
+                <a href="" class="nav-item">
+                    <li>Главная</li>
+                </a>
+
+                <a href="" class="nav-item">
+                    <li>Скидки</li>
+                </a>
+
+                <a href="" class="nav-item">
+                    <li>Галлерея</li>
+                </a>
+
+                <a href="" class="nav-item">
+                    <li>Подарки</li>
+                </a>
+
+                <a href="" class="nav-item">
+                    <li>Категории товаров</li>
+                </a>
+
+                <a href="" class="nav-item">
+                    <li>Контакты</li>
+                </a>
+
+                <a href="" class="nav-item">
+                    <li>Полезные статьи</li>
+                </a>
+            </ul>
+        </nav>
+        
+        <span class="menu-btn-wrap">
             <div class="dark-btn">
-                <!-- <div class="btn-shadow"></div> -->
                 <img class="day-night-img" src="src/img/home/light.png" alt="">
             </div>
             <label class="hamburger">
                 <input type="checkbox">
-                <svg viewBox="0 0 32 32">
+                <svg class="menu-btn" viewBox="0 0 32 32">
                     <path class="line line-top-bottom"
                         d="M27 10 13 10C10.8 10 9 8.2 9 6 9 3.5 10.8 2 13 2 15.2 2 17 3.8 17 6L17 26C17 28.2 18.8 30 21 30 23.2 30 25 28.2 25 26 25 23.8 23.2 22 21 22L7 22">
                     </path>
@@ -60,54 +93,71 @@
             <div class="slider__wrap">
                 <article class="slider__track">
 
-                    <article class="slider__item">
-                        <img src="src/img/home/categories/bodysuits.png" alt="">
-                    </article>
 
-                    <article class="slider__item">
+                    <a href="" href="" class="slider__item">
+                        <img src="src/img/home/categories/bodysuit.png" alt="">
+                        <p>Боди</p>
+                    </a>
+
+                    <a href="" class="slider__item">
                         <img src="src/img/home/categories/baize.png" alt="">
-                    </article>
+                        <p>Байки</p>
+                    </a>
 
-                    <article class="slider__item">
+                    <a href="" class="slider__item">
                         <img src="src/img/home/categories/longsleeve.png" alt="">
-                    </article>
+                        <p>Лонгсливы</p>
+                    </a>
 
-                    <article class="slider__item">
+                    <a href="" class="slider__item">
                         <img src="src/img/home/categories/sport.png" alt="">
-                    </article>
+                        <p>Спортивки</p>
+                    </a>
 
-                    <article class="slider__item">
+                    <a href="" class="slider__item">
                         <img src="src/img/home/categories/shorts.png" alt="">
-                    </article>
+                        <p>Шорты</p>
+                    </a>
 
-                    <article class="slider__item">
+                    <a href="" class="slider__item">
                         <img src="src/img/home/categories/skirt.png" alt="">
-                    </article>
+                        <p>Юбки</p>
+                    </a>
 
-                    <article class="slider__item">
+                    <a href="" class="slider__item">
                         <img src="src/img/home/categories/jeans.png" alt="">
-                    </article>
+                        <p>Джинсы</p>
+                    </a>
 
-                    <article class="slider__item">
+                    <a href="" class="slider__item">
                         <img src="src/img/home/categories/dress.png" alt="">
-                    </article>
+                        <p>Платья</p>
+                    </a>
 
-                    <article class="slider__item">
+                    <a href="" class="slider__item">
                         <img src="src/img/home/categories/pantyhose.png" alt="">
-                    </article>
+                        <p>Колготки</p>
+                    </a>
 
-                    <article class="slider__item">
+                    <a href="" class="slider__item">
                         <img src="src/img/home/categories/sweatshirt.png" alt="">
-                    </article>
+                        <p>Толстовки</p>
+                    </a>
 
-                    <article class="slider__item">
+                    <a href="" class="slider__item">
                         <img src="src/img/home/categories/t-shirt.png" alt="">
-                    </article>
+                        <p>Майки</p>
+                    </a>
 
-                    <article class="slider__item">
+                    <a href="" class="slider__item">
                         <img src="src/img/home/categories/socks.png" alt="">
-                    </article>
+                        <p>Носки</p>
+                    </a>
 
+                    <a href="" class="slider__item">
+                        <img src="src/img/home/categories/underwear.png" alt="">
+                        <p>Белье</p>
+                    </a>
                 </article>
             </div>
             <button class="btn__scroll btn__prev" alt="Назад">
@@ -158,8 +208,7 @@
 
         <section class="sale present">
             <div class="sale-text-wrap">
-                <p class="">ПОДБЕРИ ПОДАРОК</p>
-                <p>до 50%</p>
+                <p class="sale-text">ПОДБЕРИ ПОДАРОК</p>
                 <button class="sale-btn">Перейти к упаковкам</button>
             </div>
         </section>
@@ -214,6 +263,9 @@
                     <img src="src/img/home/gallery/spiderman.jpg" alt="">
                 </a>
             </div>
+            <a href="" class="review-btn">
+                <button class="sale-btn">Перейти к галлерее</button>
+            </a>
         </section>
 
         <section class="metrics">
@@ -267,7 +319,12 @@
                     Огромное спасибо за кофт... <span class=".text">подробнее</span>
                 </p>
             </a>
+            
+            <a href="" class="review-btn">
+                <button class="sale-btn">Перейти к отзывам</button>
+            </a>
         </section>
+        
 
         <section class="metrics">
             <h2 class="text">FAQ Полезная информация</h2>
@@ -281,10 +338,28 @@
     </main>
 
     <footer>
-        заглушка
+        <div class="networks-wrap">
+            <a href="">
+                <img class="network-item" src="src/img/home/social/inst.png" alt="">
+            </a>
+            <a href="">
+                <img class="network-item" src="src/img/home/social/viber.png" alt="">
+            </a>
+            <a href="">
+                <img class="network-item" src="src/img/home/social/whatsapp.png" alt="">
+            </a>
+            <a href="">
+                <img class="network-item" src="src/img/home/social/telegram.png" alt="">
+            </a>
+        </div>
+        <a class="phone" href="tel:+375251111111">+375(25) 111-11-11</a>
+        <address class="address">
+            ул. Первомайская 17А, Микашевичи, Брестская область
+        </address>
     </footer>
     <script src="src/js/slider.js"></script>
     <script src="src/js/dark.js"></script>
+    <script src="src/js/menu.js"></script>
 </body>
 
 </html>
