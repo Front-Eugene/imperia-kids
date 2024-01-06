@@ -17,10 +17,12 @@
 :root {
     --night-color: #fff;
     --day-color: #000;
-    --night-bg: #1d1a47;
-    --day-bg: #C2CAD0;
-    --day-text-bg: rgba(29, 26, 71, 0.25);
-    --night-text-border: #c2cad01a;
+    --night-bg-color: #1d1a47;
+    --day-bg-color: #C2CAD0;
+    --day-text-bg-color: rgba(29, 26, 71, 0.25);
+    --night-text-border-color: #c2cad01a;
+    --star-color: #F4E64C;
+    --btn-bg-color: #b70202;
 
     /* #F4E64C звезда
     #E7717D розовый
