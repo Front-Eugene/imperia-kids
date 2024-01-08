@@ -1,19 +1,3 @@
-/* ANIMATION */
-
-    .element-animation {
-        opacity: 0;
-        transform: translateY(20px);
-    }
-
-    .element-show {
-        opacity: 1;
-        transition: all 1s;
-        transform: translateY(0%);
-    }
-
-/* ANIMATION */
-
-
 ::-webkit-scrollbar {
     width: 0;
 }
@@ -153,7 +137,8 @@ header span {
 
     .nav-item {
         width: 100%;
-        margin: 0 0 0 10px;
+        margin: 5px 0;
+        padding: 10px 0 10px 10px;
         letter-spacing: 3px;
         display: flex;
         color: var(--day-color);
@@ -345,6 +330,9 @@ strong {
         position: relative;
         border-radius: 10px;
         overflow: hidden;
+    }
+
+    .box-bg {
         background: url(../img/home/sale.jpg) center center/cover no-repeat;
     }
 
@@ -556,6 +544,7 @@ footer {
 
 .networks-wrap {
     width: 80%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
 }

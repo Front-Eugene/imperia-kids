@@ -10,7 +10,7 @@
 
 * {
     font-family: 'light';
-    /* user-select: none; */
+    user-select: none;
     box-sizing: border-box;
 }
 
